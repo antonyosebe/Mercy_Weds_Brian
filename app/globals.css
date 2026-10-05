@@ -264,8 +264,8 @@ img {
   justify-content: center;
   text-align: center;
   background:
-    linear-gradient(180deg, rgba(18, 32, 26, 0.38), rgba(22, 36, 30, 0.55)),
-    url("/assets/mercy-brian-day.jpg") center 18% / cover no-repeat;
+    linear-gradient(180deg, rgba(16, 42, 32, 0.52), rgba(12, 34, 26, 0.64)),
+    url("/assets/mercy_brian.jpg") center 5% / cover no-repeat;
   color: var(--cream);
   padding: 6rem 1.5rem 4rem;
 }
@@ -275,6 +275,13 @@ img {
   z-index: 2;
   max-width: 760px;
   animation: fadeUp 1.2s ease both;
+}
+
+.hero__eyebrow,
+.hero__names,
+.hero__tagline,
+.hero__meta {
+  text-shadow: 0 2px 16px rgba(18, 32, 26, 0.35);
 }
 
 .hero__eyebrow {
@@ -400,7 +407,7 @@ img {
   border-radius: var(--radius);
   background:
     linear-gradient(160deg, rgba(36, 54, 46, 0.08), rgba(44, 64, 54, 0.12)),
-    url("/assets/mercy-brian-sunset.jpg") center 20% / cover no-repeat;
+    url("/assets/mercy-brian-sunset.jpeg") center 18% / cover no-repeat;
   box-shadow: var(--shadow);
 }
 
@@ -852,7 +859,7 @@ img {
 .rsvp {
   background:
     linear-gradient(165deg, rgba(28, 46, 38, 0.82), rgba(36, 44, 40, 0.88)),
-    url("/assets/mercy-brian-sunset.jpg") center 30% / cover no-repeat;
+    url("/assets/mercy-brian-sunset.jpeg") center 18% / cover no-repeat;
   background-attachment: fixed;
   max-width: none;
   color: var(--cream);
@@ -1089,10 +1096,6 @@ img {
 }
 
 @media (max-width: 700px) {
-  .hero {
-    background-position: center 22%;
-  }
-
   .hero__content {
     width: 100%;
     max-width: 100%;

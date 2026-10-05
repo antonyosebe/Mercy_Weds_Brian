@@ -15,8 +15,9 @@ export default function Gifts() {
           </div>
           <h3>Contribution</h3>
           <p>
-            Monetary gifts are welcome.
+            M-Pesa Till <span className="gifts__strong">1612250</span>
           </p>
+          <p className="gifts__name">Brian Mendza Muya</p>
         </article>
         <article className="card">
           <div className="card__icon" aria-hidden="true">

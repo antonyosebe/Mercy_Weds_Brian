@@ -64,8 +64,8 @@ export const schedule = [
 ] as const;
 
 export const gallery = [
-  "/assets/mercy-brian-day.jpg",
-  "/assets/mercy-brian-sunset.jpg",
+  "/assets/mercy_brian.jpg",
+  "/assets/mercy-brian-sunset.jpeg",
 ] as const;
 
 export const dressColors = [
